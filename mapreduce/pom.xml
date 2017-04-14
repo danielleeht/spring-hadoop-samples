@@ -81,10 +81,10 @@
 			</build>
 		</profile>
 		<profile>
-			<id>hdp22</id>
+			<id>hdp25</id>
 			<properties>
-				<spring.hadoop.version>2.2.0.RELEASE-hdp22</spring.hadoop.version>
-				<hadoop.version>2.6.0.2.2.6.0-2800</hadoop.version>
+				<spring.hadoop.version>2.5.0.M1-hdp25</spring.hadoop.version>
+				<hadoop.version>2.7.3.2.5.0.0-1245</hadoop.version>
 			</properties>
 			<dependencies>
 				<dependency>
@@ -109,7 +109,7 @@
 											<fileset dir="data"/>
 										</copy>
 										<copy todir="target/appassembler/etc">
-											<fileset dir="etc/hdp22"/>
+											<fileset dir="etc/hdp25"/>
 										</copy>
 									</tasks>
 								</configuration>
