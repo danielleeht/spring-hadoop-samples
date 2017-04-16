@@ -3,7 +3,7 @@
 
 if (!fsh.test(inputDir)) {
    fsh.mkdir(inputDir); 
-   fsh.copyFromLocal(localSourceFile, inputDir);
+   //fsh.copyFromLocal(localSourceFile, inputDir);
    fsh.chmod(700, inputDir)
 }
 
